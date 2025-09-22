@@ -418,34 +418,34 @@ A2B2 | c4c4c4B2c2 | d4B3BB4A4 | G8F8 | G4e4d4c2A2 | B8A8 | G8z8
                         {{3-4}}
 *******************************************************
 
-
 > __4. Wir brauchen Werkzeuge für die Umsetzung in verschiedenen Umgebungen.__
 
-<!--
-style="width: 100%; max-width: 860px; display: block; margin-left: auto; margin-right: auto;"
--->
 ```ascii
-+------------------+
-| # Digital Systems|\                                      .-----------.
-| (SoSe 2025)      +-+                              ╔══════|   LMS  X  |══════╗
-|                    |  --------------------------> ║      '-----------'      ║
-| Task 1             |                              ║ Digital Systems 2025    ║
-|                    |                              ║                         ║
-| + Implement ...    | --------------+              ║ import numpy as np      ║
-|                    |    Trans-     |              ║ ...                     ║
-|                    |    formation  |              ╚═════════════════════════╝
-+--------------------+               v
-                                .-,(   ),-.                .-----------.
-Lizenz: ...                  .-(           )-.      ╔══════|   LMS  Y  |══════╗
-Inhalt: ...                 (    OER Cloud    )     ║      '-----------'      ║
-Autor: ...                   '-(           )-'  +-->║ Digital Systems 2025    ║
-Versionshistorie: ...           '-.(   ).-'     |   ║                         ║
-                                     |          |
-                                     +----------+          .-----------.
-                                                |   ╔══════|  Webapp   |══════╗
-                                                |   ║      '-----------'      ║
-                                                +-->║ Digital Systems 2025    ║
-                                                    ║                         ║                                     .
+      .md Datei          Weitergabe per              Darstellung als / in  
+                                                                            
+                                                     .-----------------.                                  
+                                                   ╔═| LiaScript nativ |═╗                                
+                                                   ║ '-----------------' ║           
++-----------------+                        +-----> ║"__Mein Lia Kurs__"  ║               
+| # Mein Lia Kurs |\                       |       ║                     ║ 
+| (SoSe 2025)     +-+    Email, Chat …     |         .-----------------.   
+|                   | -- Github, Gitlab  --+       ╔═|      OPAL       |═╗
+| Task 1            |    Nextcloud, Dropbox|       ║ '-----------------' ║
+|                   |    …                 +-----> ║"__Mein Lia Kurs__"  ║     
+| + Implement …     | --------+                    ║                     ║       
+| …                 |         |                             
+| + Design …        |         v                      .----------------.                                                
++-------------------+     .-,(   ),-.              ╔═|    LMS XY      |══╗                    
+                       .-(           )-.    SCORM  ║ '----------------'  ║ 
+Lizenz: …             (    Exporter     )--+-----> ║"__Mein Lia Kurs__"  ║
+Inhalt: …              '-(           )-'   |       ║                     ║
+Autor: …                  '-.(   ).-'      | pdf                          
+Versionshistorie: …                        +----->   .----------------.    
+                                           |       ╔═|     Webapp     |══╗  
+                                           | PWA   ║ '----------------'  ║ 
+                                           +-----> ║"__Mein Lia Kurs__"  ║
+                                           |       ║                     ║
+                                           …                              
 ```
 
 > Seit Juli 2025 können LiaScript-Kurse direkt in OPAL importiert werden. Dies wurde durch eine Kooperation der TU Bergakademie und der TU Chemnitz sowie der BPS GmbH ermöglicht [Link](https://blog.hrz.tu-chemnitz.de/urzcommunity/2025/07/08/neu-im-opal-mit-liascript-schnell-zum-anschaulichen-interaktiven-kurs/). [Beispielkurs](https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/28960423936?4) 
@@ -462,13 +462,13 @@ Versionshistorie: ...           '-.(   ).-'     |   ║                         
 
 2. LiaScript macht sich selbständig ...
 
-!?[Twillo erklärt LiaScript](https://www.youtube.com/watch?v=2_aE9SwN1Rs&si=gQb0gRuScf8-kpCr)
+   !?[Twillo erklärt LiaScript](https://www.youtube.com/watch?v=2_aE9SwN1Rs&si=gQb0gRuScf8-kpCr)
 
-https://oersi.org/resources/aHR0cHM6Ly9saWFzY3JpcHQuZ2l0aHViLmlvL2NvdXJzZS8_aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1RJQkhhbm5vdmVyL29lci1naXRodWItdHV0b3JpYWwtbGlhc2NyaXB0L21haW4vdHV0b3JpYWwubWQjMQ== 
+   https://oersi.org/resources/aHR0cHM6Ly9saWFzY3JpcHQuZ2l0aHViLmlvL2NvdXJzZS8_aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1RJQkhhbm5vdmVyL29lci1naXRodWItdHV0b3JpYWwtbGlhc2NyaXB0L21haW4vdHV0b3JpYWwubWQjMQ== 
 
 3. Stellenausschreibungen benennen LiaScript explizit
 
-https://elan-ev.de/online-lehre-unterstuetzen-offenheit-foerdern-train-the-trainer-angebot-fuer-lehrende-und-studentische-hilfskraefte/
+   https://elan-ev.de/online-lehre-unterstuetzen-offenheit-foerdern-train-the-trainer-angebot-fuer-lehrende-und-studentische-hilfskraefte/
 
 4. Das Exporttool [LiaEx](https://github.com/LiaScript/LiaScript-Exporter) wird im Rahmen der OER Initiative bis April 2026 als Webanwendung bereitgestellt.
 
