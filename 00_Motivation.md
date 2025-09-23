@@ -485,4 +485,4 @@ Weitere Informationen finden Sie unter der Projektwebseite [https://liascript.gi
 
 > __Jetzt wird es spannend und Sie sind gefragt ...__
 >
-> __Rufen Sie bitte den Link [Tutorial](https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/LiaPlayground/LiaScript_Workshop_Lehrende_an_Schulen/refs/heads/main/Kochbuch.md) auf, um den LiveEditor zu starten.__
+> __Rufen Sie bitte den Link [Tutorial](https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/LiaPlayground/Tutorial_SLUB_2025/refs/heads/main/01_Kochbuch.md) auf, um den LiveEditor zu starten.__

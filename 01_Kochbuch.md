@@ -169,6 +169,47 @@ for name in zutat:
 for name, menge in zutat.items():
     print(f"{name}: {menge}")
 
+
+Beispiel für die Plugins unter https://github.com/LiaTemplates/ABCjs
+
+F. Grafiken 
+
+```
++-------------------+        +---------------------+        +-------------------+
+|                   |        |                     |        |                   |
+|   Person          |        |   Kochtopf          |        |   Buchstabensuppe |
+|                   |        |                     |        |                   |
++-------------------+        +---------------------+        +-------------------+
+       |                           |                          |
+       | Bestellung: Suppe         |                          |
+       |-------------------------->|                          |
+       |                           |                          |
+       |                           |   Erhitzen               |
+       |                           |------------------------->|
+       |                           |                          |
+       |                           |                          |
+       |                           |   Wasser kochen          |
+       |                           |------------------------->|
+       |                           |                          |
+       |                           |                          |
+       |                           |   Buchstaben hinzufügen  |
+       |                           |------------------------->|
+       |                           |                          |
+       |                           |                          |
+       |                           |   Suppe kochen           |
+       |                           |------------------------->|
+       |                           |                          |
+       |                           |                          |
+       |                           |   Servieren              |
+       |                           |<-------------------------|
+       |                           |                          |
+       |   Suppe erhalten          |                          |
+       |<--------------------------|                          |
+       |                           |                          |
+```
+
+
+
 X. Anhang
 
 X.1 Teilen von Kursen
