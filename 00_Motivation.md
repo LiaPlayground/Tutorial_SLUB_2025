@@ -3,7 +3,7 @@ author:   Sebastian Zug, André Dietrich, Martin Lommatzsch, Matthias Saurbier, 
 
 email:    Sebastian.Zug@informatik.tu-freiberg.de
 
-version:  0.0.5
+version:  0.0.6
 
 language: de
 
