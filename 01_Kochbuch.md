@@ -171,22 +171,14 @@ for name, menge in zutat.items():
 
 X. Anhang
 
-
-X.0 Zusätzliche Features im Editor
-
-
-X.1 KI - Künstliche Intelligenz
-
-
-X.2 Teilen von Kurse
+X.1 Teilen von Kursen
 
 - data URL 
 - gist
 - dropbox
 - GitHub
 
-
-X.3 Kl - Klassenräume
+X.2 Kl - Klassenräume
 
 Question: What is the capital of France?
 
